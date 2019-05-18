@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-head {
+  z-index: 0;
+  position: relative;
+}
+
+.App-body {
+  margin-top: 55rem;
+}
+
+.App-title {
+  color: #3e3e3e;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 40px;
+  margin: 0%;
+}
+
+.BoxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem;
+  z-index: 2;
+  position: absolute;
+}
+
+/* InfoImage Component */
+.layer1 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 15rem;
+}
+
+.layer2 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 30rem;
+  color: white;
+}
+
+.InfoBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+  padding: 1rem;
+}
+
+.InfoText {
+  height: 10%;
+  width: 30%;
+}
+
+.numbers {
+  font-weight: bold;
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 0;
+  font-family: "Georgia";
+}
+
+.InfoText p:nth-child(2) {
+  font-size: 21px;
+  text-align: center;
+}
+
+.layer1 img {
+  -webkit-filter: grayscale(200%);
+  filter: grayscale(200%);
+  width: 150%;
+  height: 600px;
+}
+
+.chif {
+  font-weight: bold;
+  font-size: 30pt;
+  text-align: left;
+  margin-bottom: 3rem;
+  font-family: "Verdana";
+  font-variant: small-caps;
+}
+
+/* Box Component*/
+.Box {
+  width: 25%;
+  height: 28rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Box-Title {
+  border: 2px solid #cfc3c4;
+  border-radius: 20px;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 14pt;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.Box-Content {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.Box-Content p {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  text-align: left;
+  flex-basis: 200px;
+}
+
+.Box-Content button {
+  justify-content: flex-end;
+  display: flex;
+  align-self: center;
+  padding: 0.5rem;
+  border-radius: 11px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-size: 11pt;
+}
+
+.App-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.imageTitle {
+  font-variant: small-caps;
+  text-align: center;
+  color: #3e3e3e;
+  font-weight: bold;
+  font-size: 25pt;
+  margin: 0rem;
+}
